@@ -1,0 +1,259 @@
+.Main {
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+    --VW: 2vw;
+    --P: calc(15.7 * var(--VW));
+    --C1S: 0.342;
+    --C2S: 0.992;
+    --C3S: 0.275;
+    --C4S: -0.829;
+    --C5S: -0.780;
+    --C1C: 0.939;
+    --C2C: -0.034;
+    --C3C: -0.961;
+    --C4C: -0.559;
+    --C5C: 0.615;
+    .Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .Circle {
+            height: 24%;
+            width: 24%;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+        .Circle1 {
+            position: absolute;
+            top: calc(50% - 12% - var(--C1S) * 30%);
+            left: calc(50% - 12% - var(--C1C) * 30%);
+            background-image: url("../../123.png");
+            background-repeat: no-repeat;
+            background-size: 100%, cover;
+        }
+        .Circle2 {
+            position: absolute;
+            top: calc(50% - 12% - var(--C2S) * 30%);
+            left: calc(50% - 12% - var(--C2C) * 30%);
+            background-image: url("../../TqO3sq8JtXk.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%, cover;
+        }
+        .Circle3 {
+            position: absolute;
+            top: calc(50% - 12% - var(--C3S) * 30%);
+            left: calc(50% - 12% - var(--C3C) * 30%);
+            background-image: url("../../the-witcher-wild-hunt-4k-2020-iphone-8-plus.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%, cover;
+        }
+        .Circle4 {
+            position: absolute;
+            top: calc(50% - 12% - var(--C4S) * 30%);
+            left: calc(50% - 12% - var(--C4C) * 30%);
+            background-image: url("../../Персонажка.png");
+            background-repeat: no-repeat;
+            background-size: 100%, cover;
+        }
+        .Circle5 {
+            position: absolute;
+            top: calc(50% - 12% - var(--C5S) * 30%);
+            left: calc(50% - 12% - var(--C5C) * 30%);
+            background-image: url("../../Хоук-DA-персонажи-Dragon-Age-фэндомы-2922986.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100%, cover;
+        }
+        height: calc(22 * var(--VW));
+        width: calc(22 * var(--VW));;
+        border-radius: 50%;
+        border: 1px solid black;
+        background: rgb(2,0,36);
+        background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(130,130,181,1) 48%, rgba(144,43,159,1) 100%);
+        position: relative;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        overflow: hidden;
+        @keyframes loader1 {
+          0% {transform-origin: 64% 100%; transform: rotate(240deg) ;}
+          100%{transform-origin: 120% 100%; transform: rotate(360deg) ;}
+        }
+        @keyframes loader2 {
+          0% {transform-origin: 64% 100%; transform: rotate(-60deg) ;}
+          100%{transform-origin: 120% 100%; transform: rotate(60deg) ;}
+        }
+        @keyframes loader3 {
+          0% {transform-origin: 64% 100%; transform: rotate(0deg) ;}
+          100%{transform-origin: 120% 100%; transform: rotate(120deg) ;}
+        }
+        @keyframes loader4 {
+          0% {transform-origin: 64% 100%; transform: rotate(60deg) ;}
+          100%{transform-origin: 120% 100%; transform: rotate(180deg) ;}
+        }
+        @keyframes loader5 {
+          0% {transform-origin: 64% 100%; transform: rotate(120deg) ;}
+          100%{transform-origin: 120% 100%; transform: rotate(240deg) ;}
+        }
+        @keyframes loader6 {
+          0% {transform-origin: 64% 100%; transform: rotate(180deg) ;}
+          100%{transform-origin: 120% 100%; transform: rotate(300deg) ;}
+        }
+        @keyframes loader7 {
+          100% {transform-origin: 64% 100%; transform: rotate(240deg) ;}
+          0%{transform-origin: 120% 100%; transform: rotate(360deg) ;}
+        }
+        @keyframes loader8 {
+          100% {transform-origin: 64% 100%; transform: rotate(-60deg) ;}
+          0%{transform-origin: 120% 100%; transform: rotate(60deg) ;}
+        }
+        @keyframes loader9 {
+          100% {transform-origin: 64% 100%; transform: rotate(0deg) ;}
+          0%{transform-origin: 120% 100%; transform: rotate(120deg) ;}
+        }
+        @keyframes loader10 {
+          100% {transform-origin: 64% 100%; transform: rotate(60deg) ;}
+          0%{transform-origin: 120% 100%; transform: rotate(180deg) ;}
+        }
+        @keyframes loader11 {
+          100% {transform-origin: 64% 100%; transform: rotate(120deg) ;}
+          0%{transform-origin: 120% 100%; transform: rotate(240deg) ;}
+        }
+        @keyframes loader12 {
+          100% {transform-origin: 64% 100%; transform: rotate(180deg) ;}
+          0%{transform-origin: 120% 100%; transform: rotate(300deg) ;}
+        }
+        @keyframes trans {
+          0% {transform: translateX(calc(-3.5 * var(--VW))) translateY(calc(-4.7 * var(--VW))) ;}
+          100%{transform: translateX(calc(-15.3 * var(--VW))) translateY(calc(-4.7 * var(--VW))) ;}
+        }
+        @keyframes trans2 {
+          100% {transform: translateX(calc(-3.5 * var(--VW))) translateY(calc(-4.7 * var(--VW))) ;}
+          0%{transform: translateX(calc(-15.3 * var(--VW))) translateY(calc(-4.7 * var(--VW))) ;}
+        }
+        .AdOpenProcess {
+            animation: trans 1s infinite ease-in-out;
+            animation-iteration-count: 1;
+            
+            .T0 {
+                animation: loader1 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T1 {
+                animation: loader2 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T2 {
+                animation: loader3 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T3 {
+                animation: loader4 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T4 {
+                animation: loader5 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T5 {
+                animation: loader6 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+        }
+        .AdCloseProcess {
+            animation: trans2 1s infinite ease-in-out;
+            animation-iteration-count: 1;
+            
+            .T0 {
+                animation: loader7 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T1 {
+                animation: loader8 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T2 {
+                animation: loader9 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T3 {
+                animation: loader10 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T4 {
+                animation: loader11 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+            .T5 {
+                animation: loader12 1s infinite ease-in-out;
+                animation-iteration-count: 1;
+            }
+        }
+        .AdOpen {
+            transform: translateY(calc(-4.7 * var(--VW))) translateX(calc(-15.3 * var(--VW)));
+            .Tre {        
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-left: calc(14.1 * var(--VW)) solid transparent;
+                border-right: calc(7.8 * var(--VW)) solid transparent;
+                transform-origin: 120% 100%;
+                border-top: var(--P) solid black;
+            }
+            .T0 {
+                transform: rotate(360deg) ;
+            }
+            .T1 {
+                transform: rotate(60deg) ;
+            }
+            .T2 {
+                transform: rotate(120deg) ;
+            }
+            .T3 {
+                transform: rotate(180deg) ;
+            }
+            .T4 {
+                transform: rotate(240deg) ;
+            }
+            .T5 {
+                transform: rotate(300deg) ;
+            }
+        }
+        .Ad {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            z-index: 3;
+        }
+        .AdClose {
+            transform: translateY(calc(-4.7 * var(--VW))) translateX(calc(-3.5 * var(--VW)));
+            .Tre {        
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-left: calc(14.1 * var(--VW)) solid transparent;
+                border-right: calc(7.8 * var(--VW)) solid transparent;
+                transform-origin: 64% 100%;
+                border-top: var(--P) solid black;
+            }
+            .T0 {
+                transform: rotate(360deg) ;
+            }
+            .T1 {
+                transform: rotate(60deg) ;
+            }
+            .T2 {
+                transform: rotate(120deg) ;
+            }
+            .T3 {
+                transform: rotate(180deg) ;
+            }
+            .T4 {
+                transform: rotate(240deg) ;
+            }
+            .T5 {
+                transform: rotate(300deg) ;
+            }
+        }
+    }
+}
