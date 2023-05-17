@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/foto/static/css/main.7ba93f16.css",
+    "main.css": "/foto/static/css/main.1f873281.css",
     "main.js": "/foto/static/js/main.f6deb502.js",
     "static/media/Персонажка.png": "/foto/static/media/Персонажка.063ca3d37ed38869a763.png",
     "static/media/123.png": "/foto/static/media/123.a359130066ffdb6502c3.png",
@@ -8,11 +8,11 @@
     "static/media/Хоук-DA-персонажи-Dragon-Age-фэндомы-2922986.jpeg": "/foto/static/media/Хоук-DA-персонажи-Dragon-Age-фэндомы-2922986.1592317bee63df8d1b64.jpeg",
     "static/media/TqO3sq8JtXk.jpg": "/foto/static/media/TqO3sq8JtXk.138a2940807fc808707d.jpg",
     "index.html": "/foto/index.html",
-    "main.7ba93f16.css.map": "/foto/static/css/main.7ba93f16.css.map",
+    "main.1f873281.css.map": "/foto/static/css/main.1f873281.css.map",
     "main.f6deb502.js.map": "/foto/static/js/main.f6deb502.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ba93f16.css",
+    "static/css/main.1f873281.css",
     "static/js/main.f6deb502.js"
   ]
 }
